@@ -46,4 +46,4 @@ filetype plugin indent on
 
 au BufRead,BufNewFile *.pp set filetype=puppet
 au BufRead,BufNewFile *.py set filetype=python
-
+au BufRead,BufNewFile *.{yaml,yml} set filetype=yaml "foldmethod=indent
