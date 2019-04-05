@@ -1,10 +1,15 @@
 call pathogen#infect()
 call pathogen#helptags()
 
-scriptencoding utf-8
-syntax enable
+set termguicolors
+let &t_8f = "\<Esc>[38:2:%lu:%lu:%lum"
+let &t_8b = "\<Esc>[48:2:%lu:%lu:%lum"
+
+colorscheme solarized8
 set background=dark
-colorscheme solarized
+
+syntax enable
+scriptencoding utf-8
 
 let mapleader = "."
 nnoremap <leader><leader> <leader>
