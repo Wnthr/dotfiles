@@ -36,14 +36,12 @@ match LiteralTabs /\s\	/
 highlight ExtraWhitespace ctermbg=darkgreen guibg=darkgreen
 match ExtraWhitespace /\s\+$/
 
-" Show me a ruler
 set ruler
-
 set number
+set laststatus=2
 
 " Misc Stuff
 filetype plugin indent on
 
-au BufRead,BufNewFile *.pp set filetype=puppet
-au BufRead,BufNewFile *.py set filetype=python
-au BufRead,BufNewFile *.{yaml,yml} set filetype=yaml "foldmethod=indent
+"au BufRead,BufNewFile *.pp set filetype=puppet
+"au BufRead,BufNewFile *.py set filetype=python
