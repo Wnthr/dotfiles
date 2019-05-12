@@ -23,11 +23,13 @@ set fo=tcq
 " which is not very legible on a black background
 highlight comment ctermfg=cyan
 
+" Some default tab options that make sense for general files
 set tabstop=2
 set expandtab
 set softtabstop=2
 set shiftwidth=2
 
+" Show trailing tabs and spaces
 highlight LiteralTabs ctermbg=darkgreen guibg=darkgreen
 match LiteralTabs /\s\	/
 highlight ExtraWhitespace ctermbg=darkgreen guibg=darkgreen
@@ -35,10 +37,9 @@ match ExtraWhitespace /\s\+$/
 
 set ruler
 set number
+set hidden
+set hidden
 set laststatus=2
 
 " Misc Stuff
 filetype plugin indent on
-
-"au BufRead,BufNewFile *.pp set filetype=puppet
-"au BufRead,BufNewFile *.py set filetype=python
