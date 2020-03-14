@@ -31,9 +31,9 @@ set softtabstop=2
 set shiftwidth=2
 
 " Show trailing tabs and spaces
-highlight LiteralTabs ctermbg=darkgreen guibg=darkgreen
+highlight LiteralTabs ctermbg=darkcyan guibg=darkcyan
 match LiteralTabs /\s\	/
-highlight ExtraWhitespace ctermbg=darkgreen guibg=darkgreen
+highlight ExtraWhitespace ctermbg=darkcyan guibg=darkcyan
 match ExtraWhitespace /\s\+$/
 
 set ruler
