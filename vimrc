@@ -8,7 +8,7 @@ let g:lightline = { 'colorscheme': 'lightline_solarized' }
 syntax enable
 scriptencoding utf-8
 
-let mapleader = "."
+let mapleader = ","
 nnoremap <leader><leader> <leader>
 nnoremap <leader>sv :source $MYVIMRC<cr>
 nnoremap <leader>n :set number!<cr>
