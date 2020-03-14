@@ -10,9 +10,10 @@ scriptencoding utf-8
 
 let mapleader = ","
 nnoremap <leader><leader> <leader>
-nnoremap <leader>sv :source $MYVIMRC<cr>
+nnoremap <leader>h :set hls!<cr>
 nnoremap <leader>n :set number!<cr>
 nnoremap <leader>r :set relativenumber!<cr>
+nnoremap <leader>sv :source $MYVIMRC<cr>
 
 " turn off auto adding comments on next line
 " so you can cut and paste reliably
