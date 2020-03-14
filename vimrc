@@ -22,7 +22,7 @@ set fo=tcq
 
 " set default comment color to cyan instead of darkblue
 " which is not very legible on a black background
-highlight comment ctermfg=cyan
+highlight comment ctermfg=green
 
 " Some default tab options that make sense for general files
 set tabstop=2
