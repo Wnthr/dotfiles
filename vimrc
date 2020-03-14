@@ -41,6 +41,8 @@ set number
 set hidden
 set hidden
 set laststatus=2
+set textwidth=79
+set colorcolumn=+1
 
 " Misc Stuff
 filetype plugin indent on
