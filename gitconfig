@@ -1,0 +1,10 @@
+[user]
+	email = mattias.winther@gmail.com
+	name = Mattias Winther
+[alias]
+	co = checkout
+	ci = commit
+	br = branch
+	st = status
+	rb = rebase
+	unstage = reset HEAD --
